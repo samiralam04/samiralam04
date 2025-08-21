@@ -23,6 +23,7 @@ jobs:
         with:
           github_user_name: samiralam04
           outputs: dist/github-contribution-grid-snake.svg
+          gif_slowdown: 5   # increase value to slow down, decrease to speed up
 
       - name: Push snake to output branch
         uses: peaceiris/actions-gh-pages@v3
