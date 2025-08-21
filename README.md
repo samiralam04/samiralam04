@@ -101,10 +101,7 @@ const samir = {
   ### 📈 Activity Graph
   [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=samiralam04&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
   
-  <br>
-<img src="https://raw.githubusercontent.com/samiralam04/samiralam04/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
-</div>
-
+  <br> <!-- Snake Contributions --> ![GitHub Contribution Snake](https://raw.githubusercontent.com/samiralam04/samiralam04/output/github-contribution-grid-snake.svg) </div>
 ---
 
 ### 🌐 Connect With Me
