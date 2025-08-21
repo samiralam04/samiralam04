@@ -124,17 +124,3 @@ const samir = {
   </a>
 </p>
 
----
-
-### 📌 Pinned Repositories
-
-<div align="center">
-  <a href="https://github.com/samiralam04/">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samiralam04&repo=samiralam04&theme=radical" alt="samiralam04 Repo" />
-  </a>
-  <a href="https://github.com/samiralam04/samir-portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samiralam04&repo=samir-portfolio&theme=radical" alt="samir-portfolio Repo" />
-  </a>
-</div>
-
-<p align="center">Made with ❤️ and JavaScript</p>
