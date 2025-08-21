@@ -1,34 +1,140 @@
-<p> <img src="assets/Blue Yellow Futuristic Virtual Technology Blog Banner.jpg" alt="banner" /> </p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/samiralam04/samiralam04/main/assets/Blue%20Yellow%20Futuristic%20Virtual%20Technology%20Blog%20Banner.jpg" alt="banner" />
+</div>
 
-<h1 align="center">Hi 👋, I'm Samir alam</h1>
-<h3 align="center">A passionate Full Stack developer from India</h3>
+<h1 align="center">Hi 👋, I'm Samir Alam</h1>
+<h3 align="center">A Passionate Full Stack Developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=samiralam04&label=Profile%20views&color=0e75b6&style=flat" alt="samiralam04" /> </p>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1E90FF&center=true&vCenter=true&width=435&lines=React+Developer;Java+Enthusiast;Python+Learner;Problem+Solver;Chess+Player" alt="Typing SVG" />
+  </a>
+</div>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=samiralam04" alt="samiralam04" /></a> </p>
+<div align="center">
+  <p>
+    <a href="https://github.com/samiralam04?tab=repositories">
+      <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/samiralam04?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
+    </a>
+    <a href="https://github.com/samiralam04?tab=followers">
+      <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/samiralam04?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+    </a>
+  </p>
+  
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=samiralam04&label=Profile%20views&color=0e75b6&style=flat" alt="samiralam04" />
+    <a href="https://github.com/samiralam04"><img src="https://img.shields.io/github/last-commit/samiralam04/samiralam04?logo=github&style=flat" alt="github activity" /></a>
+  </p>
+</div>
 
-- 🔭 I’m currently working on **chatbot**
+---
 
-- 🌱 I’m currently learning **Python**
+### 🚀 About Me
 
-- 👨‍💻 All of my projects are available at [https://samiralam04.github.io/samir-portfolio/](https://samiralam04.github.io/samir-portfolio/)
+I'm a passionate Full Stack Developer with a knack for creating innovative digital solutions. When I'm not coding, you'll find me strategizing my next chess move or exploring new technologies.
 
-- 💬 Ask me about **react,java,js**
+```javascript
+const samir = {
+  pronouns: "he" | "him",
+  currentFocus: "Building intelligent chatbots with Python & AI integration",
+  passion: "Creating seamless user experiences through clean code",
+  currentChallenge: "Mastering advanced algorithms while improving my Elo rating",
+  dailyDrink: "Coffee ☕ → Code 💻 → Repeat 🔁",
+  funFact: "I can analyze chess positions while debugging React components simultaneously"
+};
+```
 
-- 📫 How to reach me **samirlalam7005@gmail.com**
+---
 
-- ⚡ Fun fact **I'm a chess enthusiast**
+### 🛠️ My Tech Stack
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/samir.__.04" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="samir.__.04" height="30" width="40" /></a>
+#### **Programming Languages**
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Badge"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+#### **Frontend Development**
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Badge"/>
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=samiralam04&show_icons=true&locale=en&layout=compact" alt="samiralam04" /></p>
+#### **Backend Development**
+<p>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask Badge"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js Badge"/>
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=samiralam04&show_icons=true&locale=en" alt="samiralam04" /></p>
+#### **Databases**
+<p>
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL Badge"/>
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite Badge"/>
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=samiralam04&" alt="samiralam04" /></p>
+#### **DevOps & Tools**
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Badge"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Badge"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Badge"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman Badge"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge"/>
+</p>
+
+---
+### 📊 My GitHub Stats
+
+<div align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=samiralam04&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=samiralam04&theme=radical" alt="GitHub Streak Stats" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samiralam04&layout=compact&theme=radical" alt="Top Languages" />
+  <br>
+  <img src="https://github-profile-trophy.vercel.app/?username=samiralam04&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <br>
+  
+  ### 📈 Activity Graph
+  [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=samiralam04&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+  
+  <br>
+<img src="https://raw.githubusercontent.com/samiralam04/samiralam04/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+</div>
+
+---
+
+### 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://samiralam04.github.io/samir-portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-1E90FF?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio Badge" />
+  </a>
+  <a href="mailto:samirlalam7005@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge" />
+  </a>
+  <a href="https://instagram.com/samir.__.04">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/](https://www.linkedin.com/in/samir--alam/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+</p>
+
+---
+
+### 📌 Pinned Repositories
+
+<div align="center">
+  <a href="https://github.com/samiralam04/">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samiralam04&repo=samiralam04&theme=radical" alt="samiralam04 Repo" />
+  </a>
+  <a href="https://github.com/samiralam04/samir-portfolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=samiralam04&repo=samir-portfolio&theme=radical" alt="samir-portfolio Repo" />
+  </a>
+</div>
+
+<p align="center">Made with ❤️ and JavaScript</p>
