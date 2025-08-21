@@ -119,7 +119,7 @@ const samir = {
   <a href="https://instagram.com/samir.__.04">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge" />
   </a>
-  <a href="https://www.linkedin.com/in/](https://www.linkedin.com/in/samir--alam/">
+  <a href="https://www.linkedin.com/in/samir--alam/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
   </a>
 </p>
