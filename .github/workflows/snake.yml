@@ -18,10 +18,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create dist directory
+        run: mkdir -p dist
+
       - name: Generate multiple snake animations
         uses: Platane/snk@v3
         with:
-          github_user_name: samiralam04
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
@@ -31,6 +34,7 @@ jobs:
 
       - name: Create enhanced HTML showcase
         run: |
+          # Create the HTML file with proper permissions
           cat > dist/index.html << 'EOF'
           <!DOCTYPE html>
           <html lang="en">
@@ -136,6 +140,9 @@ jobs:
           </body>
           </html>
           EOF
+
+      - name: List files in dist directory (for debugging)
+        run: ls -la dist/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
