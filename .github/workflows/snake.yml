@@ -1,33 +1,147 @@
-name: Generate Snake
+name: Generate Enhanced Snake Animation
 
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"  # Runs every 12 hours
+  workflow_dispatch:        # Manual trigger
   push:
     branches:
       - main
 
 jobs:
-  build:
+  generate-snake:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake animation
+      - name: Generate multiple snake animations
         uses: Platane/snk@v3
         with:
           github_user_name: samiralam04
-          outputs: dist/github-contribution-grid-snake.svg
-          gif_slowdown: 5   # increase value to slow down, decrease to speed up
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-gif.gif?gif_out=true&color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+          gif_slowdown: 3
+          svg_out: true
 
-      - name: Push snake to output branch
+      - name: Create enhanced HTML showcase
+        run: |
+          cat > dist/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>GitHub Contribution Snake</title>
+              <style>
+                  body {
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+                      max-width: 800px;
+                      margin: 0 auto;
+                      padding: 20px;
+                      text-align: center;
+                      background-color: #f6f8fa;
+                      color: #24292e;
+                  }
+                  .container {
+                      background: white;
+                      border-radius: 10px;
+                      padding: 20px;
+                      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                      margin: 20px 0;
+                  }
+                  h1 {
+                      color: #0366d6;
+                  }
+                  .snake-container {
+                      margin: 20px 0;
+                  }
+                  .theme-toggle {
+                      margin: 15px 0;
+                  }
+                  button {
+                      background-color: #0366d6;
+                      color: white;
+                      border: none;
+                      padding: 8px 16px;
+                      border-radius: 6px;
+                      cursor: pointer;
+                      font-weight: 500;
+                  }
+                  button:hover {
+                      background-color: #0256b9;
+                  }
+                  .dark-mode {
+                      background-color: #0d1117;
+                      color: #c9d1d9;
+                  }
+                  .dark-mode .container {
+                      background-color: #161b22;
+                      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+                  }
+                  img, svg {
+                      max-width: 100%;
+                      height: auto;
+                      border-radius: 6px;
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="container">
+                  <h1>GitHub Contribution Snake</h1>
+                  <p>An automated snake that traverses your GitHub contribution graph</p>
+                  
+                  <div class="theme-toggle">
+                      <button onclick="toggleTheme()">Toggle Dark/Light Mode</button>
+                  </div>
+                  
+                  <div class="snake-container">
+                      <h2>SVG Animation</h2>
+                      <img id="snake-svg" src="snake.svg" alt="GitHub Contribution Snake" />
+                  </div>
+                  
+                  <div class="snake-container">
+                      <h2>GIF Animation</h2>
+                      <img src="snake-gif.gif" alt="Animated GitHub Contribution Snake" />
+                  </div>
+                  
+                  <p>Generated on: <span id="generation-date"></span></p>
+              </div>
+              
+              <script>
+                  // Set generation date
+                  document.getElementById('generation-date').textContent = new Date().toLocaleString();
+                  
+                  // Theme toggle functionality
+                  function toggleTheme() {
+                      document.body.classList.toggle('dark-mode');
+                      const snakeSvg = document.getElementById('snake-svg');
+                      if (document.body.classList.contains('dark-mode')) {
+                          snakeSvg.src = 'snake-dark.svg';
+                      } else {
+                          snakeSvg.src = 'snake.svg';
+                      }
+                  }
+                  
+                  // Auto theme based on system preference
+                  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                      toggleTheme();
+                  }
+              </script>
+          </body>
+          </html>
+          EOF
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          force_orphan: false
+          keep_files: true
