@@ -1,4 +1,4 @@
-````md
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/samiralam04/samiralam04/main/assets/Blue%20Yellow%20Futuristic%20Virtual%20Technology%20Blog%20Banner.jpg" alt="banner" />
 </div>
@@ -173,4 +173,3 @@ const samir = {
   </a>
 
 </p>
-````
