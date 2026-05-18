@@ -102,7 +102,16 @@ const samir = {
   [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=samiralam04&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
   
   <br>
-<img src="https://raw.githubusercontent.com/samiralam04/samiralam04/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/samiralam04/samiralam04/output/pacman-contribution-graph-dark.svg">
+
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/samiralam04/samiralam04/output/pacman-contribution-graph.svg">
+
+  <img alt="Pac-Man contribution graph"
+    src="https://raw.githubusercontent.com/samiralam04/samiralam04/output/pacman-contribution-graph.svg">
+</picture>
 </div>
 
 ---
