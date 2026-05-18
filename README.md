@@ -90,10 +90,10 @@ const samir = {
 ### 📊 My GitHub Stats
 
 <div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=samiralam04&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=samiralam04&show_icons=true&theme=radical" alt="GitHub Stats" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=samiralam04&theme=radical" alt="GitHub Streak Stats" />
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samiralam04&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=samiralam04&layout=compact&theme=radical" alt="Top Languages" />
   <br>
   <img src="https://github-profile-trophy.vercel.app/?username=samiralam04&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
   <br>
