@@ -24,6 +24,7 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: samiralam04
+          player_style: aggressive
 
       - name: Move generated files to output folder
         run: |
