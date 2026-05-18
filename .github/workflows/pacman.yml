@@ -26,7 +26,9 @@ jobs:
           github_user_name: samiralam04
 
       - name: Move generated files to output folder
-        run: cp dist/*.svg output/ || echo "No SVG files found in dist/"
+        run: |
+          mv pacman-contribution-graph.svg output/ 2>/dev/null || true
+          mv pacman-contribution-graph-dark.svg output/ 2>/dev/null || true
 
       - name: Commit and push generated files
         uses: stefanzweifel/git-auto-commit-action@v5
