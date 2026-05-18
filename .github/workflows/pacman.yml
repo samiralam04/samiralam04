@@ -21,12 +21,12 @@ jobs:
         run: mkdir -p output
 
       - name: Generate Pac-Man graph
-        uses: Platane/snk/svg-only@v3
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: samiralam04
-          outputs: |
-            output/pacman-contribution-graph.svg
-            output/pacman-contribution-graph-dark.svg?palette=github-dark
+
+      - name: Move generated files to output folder
+        run: cp dist/*.svg output/ || echo "No SVG files found in dist/"
 
       - name: Commit and push generated files
         uses: stefanzweifel/git-auto-commit-action@v5
